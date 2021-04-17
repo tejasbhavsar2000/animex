@@ -31,6 +31,7 @@ const App = () => {
   const getSearch = e =>{
     e.preventDefault();
     setquery(search);
+    setSearch("");
   };
 
   return (
